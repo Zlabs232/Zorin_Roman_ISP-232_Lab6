@@ -21,8 +21,8 @@ namespace Lab5
             }
             Console.WriteLine("Конец программы.");
 
-            while (true)
-            {
+            //while (true)
+            //{
                 Console.WriteLine("Введите первое число: ");
                 double number1 = double.Parse(Console.ReadLine());
 
@@ -64,7 +64,7 @@ namespace Lab5
                 {
                     Console.WriteLine("Работа калькулятора завершна.");
                 }
-            }
+            //}
 
             int numb = 12;
             Console.WriteLine(numb.ToString());
@@ -75,7 +75,15 @@ namespace Lab5
             object me = new();
             Console.WriteLine(me.ToString());
 
+            int age = int.Parse("27");
+            DateTime birthday = DateTime.Parse("4 July 1980");
+
+            Console.WriteLine($"I was born {age} years ago.");
+            Console.WriteLine($"My birthday is {birthday}: ");
+            Console.WriteLine($"My birthday is {birthday:D}: ");
+
         }
     }
 }
+
 
