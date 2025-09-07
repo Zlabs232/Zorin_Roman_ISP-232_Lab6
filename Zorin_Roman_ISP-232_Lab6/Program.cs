@@ -93,6 +93,21 @@ namespace Lab5
                 Console.WriteLine("Некорректный ввод.");
             }
 
+            Console.Write("Введите сумму: ");
+            string? amount = Console.ReadLine();
+            try
+            {
+                decimal amountValue = decimal.Parse(amount);
+            }
+            catch (FormatException) when (amount.Contains("%"))
+            {
+                Console.WriteLine("В суммах нельзя использовать знак доллара!");
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Суммы должны содержать только цифры!");
+            }
+
         }
     }
 }
