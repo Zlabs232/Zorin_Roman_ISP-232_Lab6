@@ -82,6 +82,17 @@ namespace Lab5
             Console.WriteLine($"My birthday is {birthday}: ");
             Console.WriteLine($"My birthday is {birthday:D}: ");
 
+            Console.WriteLine("Какой максимальный балл по дисциплинам? ");
+            string? input = Console.ReadLine();
+            if (int.TryParse(input, out int count))
+            {
+                Console.WriteLine($"Это {count} баллов.");
+            }
+            else
+            {
+                Console.WriteLine("Некорректный ввод.");
+            }
+
         }
     }
 }
