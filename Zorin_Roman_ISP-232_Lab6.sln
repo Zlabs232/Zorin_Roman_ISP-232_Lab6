@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zorin_Roman_ISP-232_Lab6", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{F38FEDA6-9926-42E2-8C89-B10EE5172D71}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_Task", "5_Task\5_Task.csproj", "{6922775C-D022-4C86-BE0D-96FF99D4B6BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F38FEDA6-9926-42E2-8C89-B10EE5172D71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F38FEDA6-9926-42E2-8C89-B10EE5172D71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F38FEDA6-9926-42E2-8C89-B10EE5172D71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6922775C-D022-4C86-BE0D-96FF99D4B6BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6922775C-D022-4C86-BE0D-96FF99D4B6BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6922775C-D022-4C86-BE0D-96FF99D4B6BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6922775C-D022-4C86-BE0D-96FF99D4B6BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
