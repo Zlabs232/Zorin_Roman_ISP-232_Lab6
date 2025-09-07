@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zorin_Roman_ISP-232_Lab6", "Zorin_Roman_ISP-232_Lab6\Zorin_Roman_ISP-232_Lab6.csproj", "{7AF1FE3D-7751-440D-9D3E-7574199E88FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{F38FEDA6-9926-42E2-8C89-B10EE5172D71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AF1FE3D-7751-440D-9D3E-7574199E88FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AF1FE3D-7751-440D-9D3E-7574199E88FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AF1FE3D-7751-440D-9D3E-7574199E88FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AF1FE3D-7751-440D-9D3E-7574199E88FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F38FEDA6-9926-42E2-8C89-B10EE5172D71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F38FEDA6-9926-42E2-8C89-B10EE5172D71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F38FEDA6-9926-42E2-8C89-B10EE5172D71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F38FEDA6-9926-42E2-8C89-B10EE5172D71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D49BCE55-DC3A-4029-B8B7-CC091775CA31}
+	EndGlobalSection
+EndGlobal
