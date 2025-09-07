@@ -91,6 +91,30 @@ namespace Calc
             double result = delm / del;
             Console.WriteLine($"Результат деления: {result}");
 
+
+            bool isValid = false;
+            int number = 0;
+
+            while (!isValid)
+            {
+                try
+                {
+                    Console.Write("Введите целое число: ");
+                    string input = Console.ReadLine();
+
+                    number = int.Parse(input);
+                    isValid = true;
+                }
+                catch (ArgumentNullException)
+                {
+                    Console.WriteLine("Ошибка: введена пустая строка. Повторите ввод.");
+                }
+                catch (FormatException)
+                {
+                    Console.WriteLine("Ошибка: введен неверный формат. Повторите ввод.");
+                }
+            }
+            Console.WriteLine($"Вы ввели корректное число: {number}");
         }
         static double Add(double a, double b)
         {
