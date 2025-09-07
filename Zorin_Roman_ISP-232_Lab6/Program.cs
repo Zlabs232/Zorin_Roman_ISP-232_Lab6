@@ -108,6 +108,18 @@ namespace Lab5
                 Console.WriteLine("Суммы должны содержать только цифры!");
             }
 
+            checked
+            {
+                int x = int.MaxValue - 1;
+                Console.WriteLine($"Initial value: {x}");
+                x++;
+                Console.WriteLine($"After incrementing: {x}");
+                x++;
+                Console.WriteLine($"After incrementing: {x}");
+                x++;
+                Console.WriteLine($"After incrementing: {x}");
+            }
+
         }
     }
 }
