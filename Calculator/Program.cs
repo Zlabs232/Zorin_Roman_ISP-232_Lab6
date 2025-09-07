@@ -71,8 +71,27 @@ namespace Calc
             }
             Console.WriteLine("Работа калькулятора завершена. Нажмите любую клавишу для выхода...");
             Console.ReadKey();
-        }
 
+            Console.Write("Введите делимое: ");
+            double delm = Convert.ToDouble(Console.ReadLine());
+
+            double del;
+            do
+            {
+                Console.Write("Введите делитель: ");
+                del = Convert.ToDouble(Console.ReadLine());
+
+                if (del == 0)
+                {
+                    Console.Write("На ноль делить нельзя. Повторите ввод делителя: ");
+                }
+
+            } while (del == 0);
+
+            double result = delm / del;
+            Console.WriteLine($"Результат деления: {result}");
+
+        }
         static double Add(double a, double b)
         {
             return a + b;
